@@ -1,0 +1,21 @@
+table {
+  margin-top: 12px;
+  border-collapse: collapse;
+}
+table td,
+table th {
+  border: thin solid #666;
+  text-align: center;
+  padding: 12px;
+}
+table td:nth-child(n + 5) {
+  background-color: #eee;
+}
+table th {
+  padding: 12px;
+}
+
+input,
+button {
+  padding: 6px;
+}

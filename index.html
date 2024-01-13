@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Biblioteca</title>
+  <link rel="stylesheet" href="reset.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <div id="nav">
+    <h1>Cadastrar Livros</h1>
+  </div>
+
+  <section>
+    <form>
+      <div id="input-data">
+        <input name="livro" class="input-text" placeholder="Nome do Livro" type="text" required />
+        <input name="edicao" class="input-text" placeholder="Numero de Edição" type="number" required />
+        <input name="autor" class="input-text" placeholder="Autor" type="text" required />
+        <input class="input-btn" type="submit" value="Adicionar" />
+      </div>
+    </form>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nome do Livro</th>
+          <th>Edição</th>
+          <th>Autor</th>
+          <th colspan="2">ações</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </section>
+  <script type="text/javascript" src="assets/js/app.js"></script>
+</body>
+
+</html>
